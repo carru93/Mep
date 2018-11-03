@@ -1,10 +1,9 @@
 const fill = () => {
-  console.log("ciao")
   ;["Spallanzani", "Moro", "Motti"].forEach(e => {
-    document.getElementById("school").innerHTML += `<option>${e}</option>`
+    document.getElementById("school").innerHTML += `<option>${e}</option>` //INSERISCI QUI LE SCUOLE DA MOSTRARE
   })
 
-  ;["commission1", "commission2", "commission3"].forEach(e => {
+  ;["commission1", "commission2", "commission3"].forEach(e => {            //INSERISCI QUI LE COMMISSIONI DA MOSTRARE
     document.getElementById("commission").innerHTML += `<option>${e}</option>`
   })
 }
